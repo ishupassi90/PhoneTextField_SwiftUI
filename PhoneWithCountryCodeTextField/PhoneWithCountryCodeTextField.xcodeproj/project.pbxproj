@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0E8AF3D2C900D80009D319E /* PhoneWithCountryCodeTextFieldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8AF3C2C900D80009D319E /* PhoneWithCountryCodeTextFieldApp.swift */; };
+		B0E8AF3F2C900D80009D319E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8AF3E2C900D80009D319E /* ContentView.swift */; };
+		B0E8AF412C900D81009D319E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0E8AF402C900D81009D319E /* Assets.xcassets */; };
+		B0E8AF442C900D81009D319E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0E8AF432C900D81009D319E /* Preview Assets.xcassets */; };
+		B0E8AF4D2C900E6D009D319E /* CountryCodeMetaData.json in Resources */ = {isa = PBXBuildFile; fileRef = B0E8AF4B2C900E6D009D319E /* CountryCodeMetaData.json */; };
+		B0E8AF552C915A44009D319E /* MetadataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8AF522C915A44009D319E /* MetadataTypes.swift */; };
+		B0E8AF562C915A44009D319E /* MetadataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8AF532C915A44009D319E /* MetadataManager.swift */; };
+		B0E8AF572C915A44009D319E /* MetadataParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8AF542C915A44009D319E /* MetadataParsing.swift */; };
+		B0E8AF592C915A74009D319E /* PhoneNumberUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8AF582C915A74009D319E /* PhoneNumberUtility.swift */; };
+		B0E8AF5B2C915A9D009D319E /* ParseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8AF5A2C915A9D009D319E /* ParseManager.swift */; };
+		B0E8AF5D2C915AB0009D319E /* RegexManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8AF5C2C915AAF009D319E /* RegexManager.swift */; };
+		B0E8AF5F2C915AD7009D319E /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8AF5E2C915AD7009D319E /* PhoneNumber.swift */; };
+		B0E8AF612C915AEA009D319E /* PhoneNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8AF602C915AEA009D319E /* PhoneNumberFormatter.swift */; };
+		B0E8AF632C915B07009D319E /* PartialFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8AF622C915B07009D319E /* PartialFormatter.swift */; };
+		B0E8AF652C915B3B009D319E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8AF642C915B3B009D319E /* Constants.swift */; };
+		B0E8AF672C915B4B009D319E /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8AF662C915B4B009D319E /* Formatter.swift */; };
+		B0E8AF692C915D79009D319E /* PhoneNumberParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8AF682C915D79009D319E /* PhoneNumberParser.swift */; };
+		B0E8AF6C2C91613F009D319E /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8AF6B2C91613F009D319E /* Country.swift */; };
+		B0E8AF702C916F9E009D319E /* CountryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8AF6F2C916F9E009D319E /* CountryData.swift */; };
+		B0E8AF7F2C91B00C009D319E /* CountryCodePickerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8AF7E2C91B00C009D319E /* CountryCodePickerOptions.swift */; };
+		B0E8AF812C91B090009D319E /* CountryCodePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8AF802C91B090009D319E /* CountryCodePickerView.swift */; };
+		B0E8AF832C91B141009D319E /* PhoneNumberTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8AF822C91B141009D319E /* PhoneNumberTextFieldView.swift */; };
+		B0E8AF862C92D465009D319E /* FlagButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8AF852C92D465009D319E /* FlagButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B0E8AF392C900D80009D319E /* PhoneWithCountryCodeTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneWithCountryCodeTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E8AF3C2C900D80009D319E /* PhoneWithCountryCodeTextFieldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneWithCountryCodeTextFieldApp.swift; sourceTree = "<group>"; };
+		B0E8AF3E2C900D80009D319E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B0E8AF402C900D81009D319E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0E8AF432C900D81009D319E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B0E8AF4C2C900E6D009D319E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/CountryCodeMetaData.json; sourceTree = "<group>"; };
+		B0E8AF522C915A44009D319E /* MetadataTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetadataTypes.swift; sourceTree = "<group>"; };
+		B0E8AF532C915A44009D319E /* MetadataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetadataManager.swift; sourceTree = "<group>"; };
+		B0E8AF542C915A44009D319E /* MetadataParsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetadataParsing.swift; sourceTree = "<group>"; };
+		B0E8AF582C915A74009D319E /* PhoneNumberUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberUtility.swift; sourceTree = "<group>"; };
+		B0E8AF5A2C915A9D009D319E /* ParseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseManager.swift; sourceTree = "<group>"; };
+		B0E8AF5C2C915AAF009D319E /* RegexManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegexManager.swift; sourceTree = "<group>"; };
+		B0E8AF5E2C915AD7009D319E /* PhoneNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumber.swift; sourceTree = "<group>"; };
+		B0E8AF602C915AEA009D319E /* PhoneNumberFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberFormatter.swift; sourceTree = "<group>"; };
+		B0E8AF622C915B07009D319E /* PartialFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartialFormatter.swift; sourceTree = "<group>"; };
+		B0E8AF642C915B3B009D319E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B0E8AF662C915B4B009D319E /* Formatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
+		B0E8AF682C915D79009D319E /* PhoneNumberParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberParser.swift; sourceTree = "<group>"; };
+		B0E8AF6B2C91613F009D319E /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		B0E8AF6F2C916F9E009D319E /* CountryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryData.swift; sourceTree = "<group>"; };
+		B0E8AF7E2C91B00C009D319E /* CountryCodePickerOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodePickerOptions.swift; sourceTree = "<group>"; };
+		B0E8AF802C91B090009D319E /* CountryCodePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodePickerView.swift; sourceTree = "<group>"; };
+		B0E8AF822C91B141009D319E /* PhoneNumberTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberTextFieldView.swift; sourceTree = "<group>"; };
+		B0E8AF852C92D465009D319E /* FlagButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0E8AF362C900D80009D319E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0E8AF302C900D80009D319E = {
+			isa = PBXGroup;
+			children = (
+				B0E8AF3B2C900D80009D319E /* PhoneWithCountryCodeTextField */,
+				B0E8AF3A2C900D80009D319E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0E8AF3A2C900D80009D319E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0E8AF392C900D80009D319E /* PhoneWithCountryCodeTextField.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0E8AF3B2C900D80009D319E /* PhoneWithCountryCodeTextField */ = {
+			isa = PBXGroup;
+			children = (
+				B0E8AF7D2C91B003009D319E /* UI */,
+				B0E8AF6E2C916F8C009D319E /* CountryData */,
+				B0E8AF512C9011DF009D319E /* Main View */,
+				B0E8AF4E2C901184009D319E /* CountryCodeModel */,
+				B0E8AF4A2C900DFB009D319E /* CountryCodeJson */,
+				B0E8AF3E2C900D80009D319E /* ContentView.swift */,
+				B0E8AF402C900D81009D319E /* Assets.xcassets */,
+				B0E8AF422C900D81009D319E /* Preview Content */,
+			);
+			path = PhoneWithCountryCodeTextField;
+			sourceTree = "<group>";
+		};
+		B0E8AF422C900D81009D319E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B0E8AF432C900D81009D319E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B0E8AF4A2C900DFB009D319E /* CountryCodeJson */ = {
+			isa = PBXGroup;
+			children = (
+				B0E8AF4B2C900E6D009D319E /* CountryCodeMetaData.json */,
+			);
+			path = CountryCodeJson;
+			sourceTree = "<group>";
+		};
+		B0E8AF4E2C901184009D319E /* CountryCodeModel */ = {
+			isa = PBXGroup;
+			children = (
+				B0E8AF6A2C916137009D319E /* Country */,
+				B0E8AF682C915D79009D319E /* PhoneNumberParser.swift */,
+				B0E8AF662C915B4B009D319E /* Formatter.swift */,
+				B0E8AF642C915B3B009D319E /* Constants.swift */,
+				B0E8AF622C915B07009D319E /* PartialFormatter.swift */,
+				B0E8AF602C915AEA009D319E /* PhoneNumberFormatter.swift */,
+				B0E8AF5E2C915AD7009D319E /* PhoneNumber.swift */,
+				B0E8AF5C2C915AAF009D319E /* RegexManager.swift */,
+				B0E8AF5A2C915A9D009D319E /* ParseManager.swift */,
+				B0E8AF582C915A74009D319E /* PhoneNumberUtility.swift */,
+				B0E8AF532C915A44009D319E /* MetadataManager.swift */,
+				B0E8AF542C915A44009D319E /* MetadataParsing.swift */,
+				B0E8AF522C915A44009D319E /* MetadataTypes.swift */,
+			);
+			path = CountryCodeModel;
+			sourceTree = "<group>";
+		};
+		B0E8AF512C9011DF009D319E /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				B0E8AF3C2C900D80009D319E /* PhoneWithCountryCodeTextFieldApp.swift */,
+			);
+			path = "Main View";
+			sourceTree = "<group>";
+		};
+		B0E8AF6A2C916137009D319E /* Country */ = {
+			isa = PBXGroup;
+			children = (
+				B0E8AF6B2C91613F009D319E /* Country.swift */,
+			);
+			path = Country;
+			sourceTree = "<group>";
+		};
+		B0E8AF6E2C916F8C009D319E /* CountryData */ = {
+			isa = PBXGroup;
+			children = (
+				B0E8AF6F2C916F9E009D319E /* CountryData.swift */,
+			);
+			path = CountryData;
+			sourceTree = "<group>";
+		};
+		B0E8AF7D2C91B003009D319E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B0E8AF7E2C91B00C009D319E /* CountryCodePickerOptions.swift */,
+				B0E8AF802C91B090009D319E /* CountryCodePickerView.swift */,
+				B0E8AF822C91B141009D319E /* PhoneNumberTextFieldView.swift */,
+				B0E8AF852C92D465009D319E /* FlagButton.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0E8AF382C900D80009D319E /* PhoneWithCountryCodeTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0E8AF472C900D81009D319E /* Build configuration list for PBXNativeTarget "PhoneWithCountryCodeTextField" */;
+			buildPhases = (
+				B0E8AF352C900D80009D319E /* Sources */,
+				B0E8AF362C900D80009D319E /* Frameworks */,
+				B0E8AF372C900D80009D319E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneWithCountryCodeTextField;
+			productName = PhoneWithCountryCodeTextField;
+			productReference = B0E8AF392C900D80009D319E /* PhoneWithCountryCodeTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0E8AF312C900D80009D319E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					B0E8AF382C900D80009D319E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = B0E8AF342C900D80009D319E /* Build configuration list for PBXProject "PhoneWithCountryCodeTextField" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0E8AF302C900D80009D319E;
+			productRefGroup = B0E8AF3A2C900D80009D319E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0E8AF382C900D80009D319E /* PhoneWithCountryCodeTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0E8AF372C900D80009D319E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E8AF442C900D81009D319E /* Preview Assets.xcassets in Resources */,
+				B0E8AF4D2C900E6D009D319E /* CountryCodeMetaData.json in Resources */,
+				B0E8AF412C900D81009D319E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0E8AF352C900D80009D319E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E8AF5B2C915A9D009D319E /* ParseManager.swift in Sources */,
+				B0E8AF672C915B4B009D319E /* Formatter.swift in Sources */,
+				B0E8AF562C915A44009D319E /* MetadataManager.swift in Sources */,
+				B0E8AF5F2C915AD7009D319E /* PhoneNumber.swift in Sources */,
+				B0E8AF552C915A44009D319E /* MetadataTypes.swift in Sources */,
+				B0E8AF632C915B07009D319E /* PartialFormatter.swift in Sources */,
+				B0E8AF5D2C915AB0009D319E /* RegexManager.swift in Sources */,
+				B0E8AF592C915A74009D319E /* PhoneNumberUtility.swift in Sources */,
+				B0E8AF7F2C91B00C009D319E /* CountryCodePickerOptions.swift in Sources */,
+				B0E8AF3F2C900D80009D319E /* ContentView.swift in Sources */,
+				B0E8AF812C91B090009D319E /* CountryCodePickerView.swift in Sources */,
+				B0E8AF3D2C900D80009D319E /* PhoneWithCountryCodeTextFieldApp.swift in Sources */,
+				B0E8AF702C916F9E009D319E /* CountryData.swift in Sources */,
+				B0E8AF692C915D79009D319E /* PhoneNumberParser.swift in Sources */,
+				B0E8AF612C915AEA009D319E /* PhoneNumberFormatter.swift in Sources */,
+				B0E8AF572C915A44009D319E /* MetadataParsing.swift in Sources */,
+				B0E8AF6C2C91613F009D319E /* Country.swift in Sources */,
+				B0E8AF862C92D465009D319E /* FlagButton.swift in Sources */,
+				B0E8AF652C915B3B009D319E /* Constants.swift in Sources */,
+				B0E8AF832C91B141009D319E /* PhoneNumberTextFieldView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0E8AF4B2C900E6D009D319E /* CountryCodeMetaData.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0E8AF4C2C900E6D009D319E /* en */,
+			);
+			name = CountryCodeMetaData.json;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0E8AF452C900D81009D319E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0E8AF462C900D81009D319E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0E8AF482C900D81009D319E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhoneWithCountryCodeTextField/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.we.PhoneWithCountryCodeTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0E8AF492C900D81009D319E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhoneWithCountryCodeTextField/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.we.PhoneWithCountryCodeTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0E8AF342C900D80009D319E /* Build configuration list for PBXProject "PhoneWithCountryCodeTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0E8AF452C900D81009D319E /* Debug */,
+				B0E8AF462C900D81009D319E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0E8AF472C900D81009D319E /* Build configuration list for PBXNativeTarget "PhoneWithCountryCodeTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0E8AF482C900D81009D319E /* Debug */,
+				B0E8AF492C900D81009D319E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0E8AF312C900D80009D319E /* Project object */;
+}
